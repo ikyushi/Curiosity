@@ -32,7 +32,7 @@ client.on("message", async message => {
   } else if (command === "bonk") {
     const embed = new MessageEmbed()
     .setColor("#7289DA")
-    .setImage("./IMG_0771.jpg")
+    .setImage("https://github.com/SimpleSenpai12/Curiosity/blob/master/IMG_0771.jpg")
     message.channel.send(embed)
   }
 })
